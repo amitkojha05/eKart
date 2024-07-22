@@ -54,7 +54,7 @@ const Product = () => {
     return (
         <div className="my-5 md-mx:mx-2 mx-10 mt-20 flex flex-wrap sm-mx:justify-around md-mx:gap-5 gap-12">
             <div className="relative w-fit h-fit bg-gray-100 rounded-xl flex items-center justify-center">
-                <img className="" src={`Images/${product.title}.png`} alt="img" />
+                <img className="" src={`/Images/${product.title}.png`} alt="img" />
                 <div onClick={handleLike} className="cursor-pointer absolute md-mx:right-3 md-mx:top-3 md:right-5 md:top-5 transition duration-300 ease-in-out bg-white p-2 rounded-full hover:bg-red-100">
                     {!heart && <HeartIcon className="h-5 w-5" />}
                     {heart && <HeartIconSolid className="h-5 w-5 text-red-500" />}
