@@ -15,12 +15,12 @@ const DebitCard = () => {
             <div className="relative">
                 <img
                     className="xs-mx:hidden md-mx:w-[28vw] lg-mx:w-[35vw] absolute top-4 -right-4 -rotate-[20deg]"
-                    src="../../Ekart/Images/debitcard2.png"
+                    src="Images/debitcard2.png"
                     alt="Decorative image of a debit card with design elements"
                 />
                 <img
                     className="xs-mx:hidden md-mx:w-[28vw] lg-mx:w-[35vw] -rotate-[30deg] z-10"
-                    src="../../Ekart/Images/debitcard.png"
+                    src="Images/debitcard.png"
                     alt="Decorative image of a debit card with branding"
                 />
             </div>

@@ -25,7 +25,7 @@ const OrderItem = ({ id, title, price, rating, desc, date, quantity, status }) =
                 <div className="flex gap-3 items-center">
                     <img 
                         className="w-36 rounded-md bg-gray-100" 
-                        src={`../../Ekart/Images/${title}.png`} 
+                        src={`Images/${title}.png`} 
                         alt={`${title}`} 
                     />
                     <div className="flex flex-col gap-2">

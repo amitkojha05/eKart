@@ -9,7 +9,7 @@ const DiscountCard = ({ price, pic, desc }) => {
             <div className="overflow-hidden cursor-pointer">
                 <img
                     className="hover:scale-[1.2] transform transition-transform duration-[400ms]"
-                    src={`../../Ekart/Images/${pic}.png`}
+                    src={`Images/${pic}.png`}
                     alt={`Discount image for ${desc}`} // Added alt attribute
                 />
             </div>

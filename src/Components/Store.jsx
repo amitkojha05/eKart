@@ -7,13 +7,13 @@ const Store = ({ name }) => {
                 <div className="overflow-hidden rounded-xl">
                     <img 
                         className="hover:scale-[1.2] hover:rotate-3 transform transition-transform duration-[400ms]" 
-                        src={`../../Ekart/Images/${name}bg.png`} 
+                        src={`Images/${name}bg.png`} 
                         alt={`${name} background`} 
                     />
                 </div>
                 <img 
                     className="absolute border-2 rounded-full -bottom-6 left-5 w-14" 
-                    src={`../../Ekart/Images/${name}.png`} 
+                    src={`Images/${name}.png`} 
                     alt={`${name} logo`} 
                 />
             </div>

@@ -49,8 +49,8 @@ const Carousel = () => {
     {
       offers.map((x, index)=>
        <div key={index} className=" cursor-pointer  overflow-hidden">
-        <img src={`../../Ekart/Images/img${x}.jpg`}  alt="Slide" className="w-auto sm-mx:!hidden object-cover min-h-[30vh] " />
-        <img src={`../../Ekart/Images/smallimg${x}.jpg`}  alt="Slide" className="w-auto sm:!hidden object-cover min-h-[30vh] " />
+        <img src={`Images/img${x}.jpg`}  alt="Slide" className="w-auto sm-mx:!hidden object-cover min-h-[30vh] " />
+        <img src={`Images/smallimg${x}.jpg`}  alt="Slide" className="w-auto sm:!hidden object-cover min-h-[30vh] " />
       </div>
       )
     }

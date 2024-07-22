@@ -9,7 +9,7 @@ const SimilarProd = ({ id, title, price, rating }) => {
                 <div className="flex gap-1 sm-mx:justify-between items-center">
                     <img 
                         className="w-20 sm-mx:w-[60px] rounded-md bg-white" 
-                        src={`../../Ekart/Images/${title}.png`} 
+                        src={`Images/${title}.png`} 
                         alt={`${title} image`} 
                     />
                     <div className="flex w-36 sm-mx:w-[90px] flex-col gap-1">

@@ -18,7 +18,7 @@ const HelpCard = ({ title }) => {
             <div className="overflow-hidden">
                 <img
                     className="hover:scale-[1.2] transform transition-transform duration-[400ms]"
-                    src={`../../Ekart/Images/${title}.png`}
+                    src={`Images/${title}.png`}
                     alt={`Image for ${title}`}
                 />
             </div>

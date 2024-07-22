@@ -26,7 +26,7 @@ const CartItem = ({ id, title, price, rating, desc, quantity, cart }) => {
                 <div className="flex gap-2 items-center">
                     <img
                         className="w-36 rounded-md bg-gray-100"
-                        src={`../../Ekart/Images/${title}.png`}
+                        src={`Images/${title}.png`}
                         alt={`Image of ${title}`} // Add meaningful alt text
                     />
                     <div className="flex flex-col gap-2">
